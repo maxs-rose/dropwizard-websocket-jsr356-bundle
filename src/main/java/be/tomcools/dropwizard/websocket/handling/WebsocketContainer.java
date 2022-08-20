@@ -4,9 +4,10 @@ import be.tomcools.dropwizard.websocket.WebsocketConfiguration;
 import be.tomcools.dropwizard.websocket.registration.Endpoint;
 import be.tomcools.dropwizard.websocket.registration.Endpoints;
 import be.tomcools.dropwizard.websocket.registration.endpointtypes.EndpointProgrammaticJava;
-import jakarta.websocket.DeploymentException;
-import jakarta.websocket.server.ServerContainer;
 import lombok.extern.slf4j.Slf4j;
+
+import javax.websocket.DeploymentException;
+import javax.websocket.server.ServerContainer;
 
 import java.util.Optional;
 

@@ -2,7 +2,6 @@ package be.tomcools.dropwizard.websocket.handling;
 
 import be.tomcools.dropwizard.websocket.WebsocketHandler;
 import io.dropwizard.jetty.MutableServletContextHandler;
-import jakarta.servlet.ServletException;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.websocket.servlet.WebSocketUpgradeFilter;
 import org.junit.Before;
@@ -11,6 +10,8 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
+
+import javax.servlet.ServletException;
 
 import static org.mockito.Mockito.*;
 

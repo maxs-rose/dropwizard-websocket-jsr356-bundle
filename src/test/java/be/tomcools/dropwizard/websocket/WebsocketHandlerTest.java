@@ -5,15 +5,16 @@ import be.tomcools.dropwizard.websocket.registration.EndpointRegistration;
 import be.tomcools.dropwizard.websocket.registration.Endpoints;
 import io.dropwizard.core.Configuration;
 import io.dropwizard.core.setup.Environment;
-import jakarta.websocket.*;
-import jakarta.websocket.server.ServerEndpoint;
-import jakarta.websocket.server.ServerEndpointConfig;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
+
+import javax.websocket.*;
+import javax.websocket.server.ServerEndpoint;
+import javax.websocket.server.ServerEndpointConfig;
 
 import static org.mockito.Mockito.*;
 
